@@ -1,49 +1,43 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# ForkFacts Embedded Component
+This is a proof-of-concept for embedding a component created in ff-producer into a third-party site using an embed code.
 
-## 🚀 Quick start
+## Getting Started
+To use the embedded component from forkfacts, follow these steps:
 
-1.  **Create a Gatsby site.**
+* Clone the ff-producer repository and deploy it to Vercel using their free account.
+* Once deployed, copy the embed code provided on the website.
+* Clone the ff-consumer repository and deploy it to Vercel using their free account.* 
+* Paste the embed code copied in step 2 into the index.js file of the ff-consumer project.
+* Deploy the ff-consumer project to Vercel.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+## Usage
+To use the embedded component in a third-party site, follow these steps:
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+* Copy the embed code provided on the ff-producer website.
+* Paste the embed code into your HTML code where you want the component to be displayed.
+## Copy code
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <h1>Welcome to my website</h1>
+    <!-- Paste the embed code here -->
+    <script src="https://your-username-ff-producer.vercel.app/embed.js"></script>
+  </body>
+</html>
 
-2.  **Start developing.**
+```
+## Embed Code
+The embed code is provided on the ff-producer website after the component is deployed. It should look something like this:
 
-    Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+## Copy code
+```
+<!-- Copy and paste this code into your website where you want the component to be displayed -->
+<script src="https://your-username-ff-producer.vercel.app/embed.js"></script>
+```
+## Support
+For any questions or issues, please contact the forkfacts support team.
