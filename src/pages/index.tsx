@@ -39,8 +39,8 @@ const IndexPage: React.FC<PageProps> = () => {
           dangerouslySetInnerHTML={{ __html: embedCode }}
           style={{
             position: "absolute",
-            top: 0,
-            left: 0,
+            top: 100,
+            left: "40%",
             width: "100%",
             height: "100%",
             border: "none",
@@ -53,4 +53,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => <title>Forkfacts consumer</title>;
