@@ -30,21 +30,15 @@ const IndexPage: React.FC<PageProps> = () => {
         style={{
           position: "relative",
           overflow: "hidden",
-          paddingTop: "56.25%",
           width: "100%",
-          height: "0",
+          height: "100vh",
+          display:"flex",
+          justifyContent:"center",
+          marginTop:"100px"
         }}
       >
         <div
           dangerouslySetInnerHTML={{ __html: embedCode }}
-          style={{
-            position: "absolute",
-            top: 100,
-            left: "40%",
-            width: "100%",
-            height: "100%",
-            border: "none",
-          }}
         />
       </div>
     </main>
