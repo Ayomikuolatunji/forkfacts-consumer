@@ -24,9 +24,9 @@ To use the embedded component in a third-party site, follow these steps:
   </head>
   <body>
     <h1>Welcome to my website</h1>
-    <!-- Paste the embed code here -->
-    <script src="https://your-username-ff-producer.vercel.app/embed.js"></script>
-  </body>
+    <!-- Paste the embed code here --><div style="position: relative; overflow: hidden; padding-top: 56.25%;">
+    <iframe src="https://forkfacts-v2.vercel.app/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+  </div></body>
 </html>
 
 ```
@@ -37,7 +37,9 @@ The embed code is provided on the ff-producer website after the component is dep
 ## Copy code
 ```
 <!-- Copy and paste this code into your website where you want the component to be displayed -->
-<script src="https://your-username-ff-producer.vercel.app/embed.js"></script>
+<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
+    <iframe src="https://forkfacts-v2.vercel.app/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+  </div>
 ```
 ## Support
 For any questions or issues, please contact the forkfacts support team.
